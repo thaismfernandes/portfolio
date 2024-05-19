@@ -14,13 +14,28 @@ header {
     text-align: center;
 }
 
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
 .container {
     width: 80%;
     margin: auto;
     overflow: hidden;
 }
 
-h1 {
+h1, h2, h3 {
     margin: 20px 0;
 }
 
@@ -32,4 +47,18 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+#about, #projects {
+    padding: 20px 0;
+    background: #fff;
+    margin-top: 20px;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+#contact {
+    margin: 20px 0;
 }
